@@ -1,2 +1,0 @@
-RPi.GPIO==0.7.1  # If you're on Raspberry Pi
-# Any other libraries, like speech recognition or VLM SDKs
