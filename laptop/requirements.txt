@@ -2,3 +2,6 @@ torch
 transformers
 Pillow
 opencv-python
+numpy
+pyqt5
+python-dotenv
