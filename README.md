@@ -25,40 +25,9 @@ This project implements a vision-based control system for a robotic car using th
 - USB interface
 - Wide-angle lens (90°+ field of view)
 
-### Robotic Car Components
 
-1. **Chassis**
-   - Base frame
-   - 4 wheels
-   - Mounting brackets
 
-2. **Motors**
-   - 4 DC motors (12V)
-   - Motor drivers (L298N or similar)
-   - Encoders for feedback
-
-3. **Control Electronics**
-   - Arduino board (Arduino Mega recommended)
-   - Motor driver board
-   - Power supply (12V battery)
-   - USB-to-Serial converter
-
-4. **Additional Sensors** (Optional but recommended)
-   - Ultrasonic sensors
-   - Infrared sensors
-   - IMU sensor
-
-## Hardware Setup
-
-### 1. Car Assembly
-1. Mount the motors to the chassis
-2. Connect the wheels to the motors
-3. Mount the Arduino board
-4. Connect motor drivers to Arduino
-5. Mount the camera on the front
-6. Add optional sensors
-
-### 2. Arduino Wiring
+###  Arduino Wiring
 ```
 Arduino Mega Pin Connections:
 - Motor 1: Pins 2, 3
@@ -69,7 +38,7 @@ Arduino Mega Pin Connections:
 - Optional Sensors: Analog pins
 ```
 
-### 3. Arduino Code
+###  Arduino Code
 Upload the following code to your Arduino board:
 
 ```cpp
@@ -225,56 +194,3 @@ The system operates in a continuous loop:
    - Emergency stop button
    - Manual control option
    - System status monitoring
-
-## Troubleshooting
-
-### Common Issues
-
-1. **Camera Not Detected**
-   - Check USB connection
-   - Verify camera permissions
-   - Try different USB port
-
-2. **Motor Control Issues**
-   - Check Arduino connections
-   - Verify power supply
-   - Test motor drivers
-
-3. **Performance Issues**
-   - Reduce frame rate
-   - Lower resolution
-   - Use GPU acceleration
-
-## Maintenance
-
-Regular Maintenance Tasks:
-1. Check battery level
-2. Clean camera lens
-3. Verify motor connections
-4. Update software
-5. Test safety features
-
-## Future Improvements
-
-Potential Enhancements:
-1. Add more sensors
-2. Implement SLAM
-3. Add GPS navigation
-4. Improve obstacle detection
-5. Add wireless control
-
-## Cost Estimation
-
-Approximate Costs:
-- Computer/Laptop: $500-1000
-- Camera: $30-100
-- Arduino + Components: $50-100
-- Motors + Drivers: $40-80
-- Chassis + Wheels: $30-50
-- Optional Sensors: $20-50 each
-
-Total Estimated Cost: $670-1430
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
